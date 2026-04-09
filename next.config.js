@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Required for static GitHub Pages hosting
-  basePath: '/abiiralecoms.github.io',
-  assetPrefix: '/abiiralecoms.github.io', 
+  output: 'export',
   images: {
     unoptimized: true,
   },
